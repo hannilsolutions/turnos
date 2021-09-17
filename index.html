@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Use ajax como página de destino </title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="layout.css">
+</head>
+<body>
+<div class="wraper">
+<div id="login">
+<ul>
+ <li> <input type = "text" name = "username" id = "username" placeholder = "user name"> <span id = "user"> </span> </li>
+ <li> <input type = "password" name = "password" id = "password" placeholder = "password"> <span id = "passw"> </span> </li>
+ <li> <input type = "password" name = "repassword" id = "repassword" placeholder = "password"> <span id = "repassw"> </span> </li>
+ <li> <input type = "text" name = "email" id = "email" placeholder = "buzón >> <span id =" mail "> </span> </li>
+ <li> <input type = "text" name = "validate" id = "validate" size = 10 placeholder = "Verification code"> <span id = "code"> </span> 
+ </br> <img title = "Haga clic para actualizar" src = "./ captcha.php" align = "absbottom" onclick = "this.src = "captcha.php?" + Math.random ();"> </ img> </li>
+ <li> <button type = "submit" id = "register_submit"> Enviar </button> </li>
+</ul>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="ajax.js"></script>
+</body>
+</html>
